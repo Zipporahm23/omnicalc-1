@@ -24,4 +24,20 @@ def calculate_random
   render({ :template => "calculation_templates/random_results.html.erb" })
 end
 
+
+def blank_payment_form
+  render({ :template => "calculation_templates/payments_form.html.erb" })
+end
+def payment_results
+  # params = {"value"=>"322"}
+  @annual_percentage_rate = params.fetch("value"
+
+
+
+
+
+
+  )
+render({ :template => "calculation_templates/payments_form.html.erb"})
+end
 end
